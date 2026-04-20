@@ -1108,7 +1108,7 @@ public:
             }
         }
     
-        renderer->drawString(this->m_subtitle, false, 184, y-8, 15, (tsl::bannerVersionTextColor));
+        renderer->drawString(this->m_subtitle, false, 184-1, y-8, 15, (tsl::bannerVersionTextColor));
         renderer->drawRect(15, tsl::cfg::FramebufferHeight - 73, tsl::cfg::FramebufferWidth - 30, 1, a(tsl::bottomSeparatorColor));
     
         // Calculate gap width and store half gap (matching original code)
